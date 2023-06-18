@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="icon" type="image/png" href="favicon.ico">
+        <title>Compress</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="cStyle.css">
+    </head>
+    <body>
+  <div class="wrapper">
+    <div class="upload-box">
+        <input type="file" accept="='image/*" hidden>
+        <img src="upload-img.svg" alt="">
+        <p>Browse file to upload</p>
+    </div>
+    <div class="content">
+        <div class="row sizes">
+            <div class="column width">
+                <label>Width</label>
+                <input type="number">
+            </div>
+            <div class="column height">
+                <label>Height</label>
+                <input type="number">
+            </div>
+        </div>
+        <div class="row checkboxes">
+            <div class="column ratio">
+                <input id="ratio" type="checkbox" checked>
+                <label for="ratio">Lock aspect ratio</label>
+            </div>
+            <div class="column quality">
+                <input id="quality" type="checkbox">
+                <label for="quality">Reduce quality</label>
+            </div>
+        </div>
+        <button class="download-btn">Download Image</button>
+    </div>
+  </div>
+          
+        <script src="cScript.js" defer></script>
+    </body>
+</html>

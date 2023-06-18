@@ -152,6 +152,22 @@ body {
     ;
 }
 
+.controls .compress {
+    color: #6C757D;
+    border: 1px solid #6C757D;
+    ;
+}
+
+.compress .compress-link {
+    color: #6C757D;
+    text-decoration: none;
+}
+
+.compress .compress-link::after {
+    color: #6C757D;
+    text-decoration: none;
+}
+
 .controls .choose-img {
     background: #6C757D;
     border: 1px solid #6C757D;
